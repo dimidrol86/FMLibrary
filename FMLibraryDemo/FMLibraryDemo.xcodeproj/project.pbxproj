@@ -12,6 +12,8 @@
 		FFD9A79F1AF3C0C3001CFB36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFD9A79D1AF3C0C3001CFB36 /* Main.storyboard */; };
 		FFD9A7A11AF3C0C3001CFB36 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFD9A7A01AF3C0C3001CFB36 /* Images.xcassets */; };
 		FFD9A7A41AF3C0C3001CFB36 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFD9A7A21AF3C0C3001CFB36 /* LaunchScreen.xib */; };
+		FFD9A7BA1AF3D347001CFB36 /* FMManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD9A7B91AF3D347001CFB36 /* FMManager.swift */; };
+		FFD9A7BC1AF3D4BC001CFB36 /* FMClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD9A7BB1AF3D4BC001CFB36 /* FMClasses.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		FFD9A79E1AF3C0C3001CFB36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FFD9A7A01AF3C0C3001CFB36 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FFD9A7A31AF3C0C3001CFB36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FFD9A7B91AF3D347001CFB36 /* FMManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMManager.swift; sourceTree = "<group>"; };
+		FFD9A7BB1AF3D4BC001CFB36 /* FMClasses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMClasses.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				FFD9A7A01AF3C0C3001CFB36 /* Images.xcassets */,
 				FFD9A7A21AF3C0C3001CFB36 /* LaunchScreen.xib */,
 				FFD9A7971AF3C0C2001CFB36 /* Supporting Files */,
+				FFD9A7B91AF3D347001CFB36 /* FMManager.swift */,
+				FFD9A7BB1AF3D4BC001CFB36 /* FMClasses.swift */,
 			);
 			path = FMLibraryDemo;
 			sourceTree = "<group>";
@@ -142,8 +148,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFD9A7BA1AF3D347001CFB36 /* FMManager.swift in Sources */,
 				FFD9A79C1AF3C0C3001CFB36 /* ViewController.swift in Sources */,
 				FFD9A79A1AF3C0C2001CFB36 /* AppDelegate.swift in Sources */,
+				FFD9A7BC1AF3D4BC001CFB36 /* FMClasses.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
